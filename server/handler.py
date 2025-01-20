@@ -10,7 +10,6 @@ def handle_client(client, address, clients, nicknames):
                 if message:
                     print(f"[{nickname}] {message}")
 
-                    # Enviar mensaje a los demás clientes
                     for c in clients:
                         if c != client:
                             c.send(f"[{nickname}] {message}".encode('utf-8'))
