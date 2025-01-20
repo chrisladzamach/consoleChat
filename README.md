@@ -83,7 +83,7 @@ Type `exit` in the client to disconnect from the server.
 
 ---
 
-##🧪 Example Usage
+## 🧪 Example Usage
    1. Server running:
       ```
       [SERVER] Waiting for connections on 0.0.0.0:5555
@@ -97,7 +97,7 @@ Type `exit` in the client to disconnect from the server.
         [nickname1] Hello, how are you?
 ---
 
-##⚠️ Common Errors and Solutions
+## ⚠️ Common Errors and Solutions
    1. ConnectionRefusedError:
       - Make sure the server is running before trying to connect as a client.
    2. TimeoutError:
@@ -106,11 +106,11 @@ Type `exit` in the client to disconnect from the server.
    3. Unexpected disconnection:
       - if a client disconnects abruptly, the server will remove the connection and allow others to continue functioning.
 ---
-##🛡️ Security Notes.
+## 🛡️ Security Notes.
    - This code does not implement encryption, meaning messages are sent in plain thext. ###Do not use it on public networks or production enviroments.###
    - Consider implementing SSL/TLS for secure communication if deploying in a more serious context.
 ---
-##📄 License
+## 📄 License
 This project is licensed under the MIT License. You can use, modify, and distribute the code under the terms of this license.
 ---
 Thank you for exploring this chat application! 💬 If you have suggestions or improvements, feel free to contribute to the project. 🚀
@@ -204,7 +204,7 @@ Escribe `exit` en el cliente para desconectarte del servidor.
 
 ---
 
-##🧪 Ejemplo de Uso
+## 🧪 Ejemplo de Uso
    1. Servidor en ejecución:
       ```
       [SERVER] Waiting for connections on 0.0.0.0:5555
@@ -218,7 +218,7 @@ Escribe `exit` en el cliente para desconectarte del servidor.
         [nickname1] Hello, how are you?
 ---
 
-##⚠️ Errores Comunes y Soluciones
+## ⚠️ Errores Comunes y Soluciones
    1. ConnectionRefusedError:
       - Asegúrate de que el servidor esté corriendo antes de conectarte como cliente.
    2. TimeoutError:
@@ -227,11 +227,11 @@ Escribe `exit` en el cliente para desconectarte del servidor.
    3. Desconexión inesperada:
       - Si un cliente se desconecta abruptamente, el servidor eliminará la conexión y permitirá que otros sigan funcionando.
 ---
-##🛡️ Notas de Seguridad
+## 🛡️ Notas de Seguridad
    - Este código no implementa cifrado, lo que signidica que los mensajes se envían en texto plano. ###No lo utilices en redes públicas o en entornos de producción.###
    - Considera usar SSL/TSL para protefer la comunicación si deseas implementarlo en un entorno más serio.
 ---
-##📄 Licencia
+## 📄 Licencia
 Este proyecto está bajo la Licencia MIT. Puedes usar, modificar y distribuir el código bajo los términos de esta licencia.
 ---
 ¡Gracias por explirar esta aplicación de chat en consola! 💬 Si tienes alguna sugerencia o mejora, no dudes en contribuir al proyecto. 🚀
