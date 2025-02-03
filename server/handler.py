@@ -1,8 +1,11 @@
+from colorama import init, Fore, Back, Style
+init()
+
 def handle_client(client, address, clients, nicknames):
     try:
         nickname = client.recv(1024).decode('utf-8')
         nicknames[client] = nickname
-        print(f"[NICKNAME SET] {nickname} connected from {address}")
+        print(Fore.GREEN + f"{nickname} connected from {address}" + Fore.RESET)
 
         while True:
             try:
@@ -18,7 +21,7 @@ def handle_client(client, address, clients, nicknames):
             except:
                 break
     finally:
-        print(f"[DISCONNECTED] {address}")
+        print(Fore.RED + f"[DISCONNECTED] {address}" + Fore.RESET)
         clients.remove(client)
         del nicknames[client]
         client.close()

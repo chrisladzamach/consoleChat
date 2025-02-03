@@ -1,14 +1,16 @@
+from colorama import init, Fore, Back, Style
 import socket
 import threading
 from utils.config import PORT
 
+init()
 def start_client():
     server_ip = input("Enter server IP: ")
 
     client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     client.connect((server_ip, PORT))
 
-    nickname = input("Enter your nickname: ")
+    nickname = input(Fore.BLUE + "Enter your nickname: " + Fore.RESET)
     client.send(nickname.encode('utf-8'))
 
     def receive_messages():
@@ -17,7 +19,7 @@ def start_client():
                 message = client.recv(1024).decode('utf-8')
                 print(message)
             except:
-                print("[ERROR] Connection lost.")
+                print(Fore.RED + "[ERROR] Connection lost." + Fore.RESET)
                 client.close()
                 break
 
