@@ -1,3 +1,4 @@
+
 EN
 # Chat App with Sockets and Threading
 
@@ -233,5 +234,11 @@ Escribe `exit` en el cliente para desconectarte del servidor.
 ---
 ## 📄 Licencia
 Este proyecto está bajo la Licencia MIT. Puedes usar, modificar y distribuir el código bajo los términos de esta licencia.
+
+---
+![image text](https://github.com/OrichalcosShunnoros/consoleChat/blob/master/assets/optionMode.png)
+![image text](https://github.com/OrichalcosShunnoros/consoleChat/blob/master/assets/userViewInit.png)
+![image text](https://github.com/OrichalcosShunnoros/consoleChat/blob/master/assets/chatClientView.png)
+
 ---
 ¡Gracias por explirar esta aplicación de chat en consola! 💬 Si tienes alguna sugerencia o mejora, no dudes en contribuir al proyecto. 🚀
