@@ -146,6 +146,8 @@ Type `exit` in the client to disconnect from the server.
 Thank you for exploring this chat application! 💬 If you have suggestions or improvements, feel free to contribute to the project. 🚀
 
 ---
+![image](https://github.com/user-attachments/assets/3cb850d8-593d-4cd6-bada-61daebbcae28)
+
 
 ---
 
@@ -293,9 +295,8 @@ Escribe `exit` en el cliente para desconectarte del servidor.
 Este proyecto está bajo la Licencia MIT. Puedes usar, modificar y distribuir el código bajo los términos de esta licencia.
 
 ---
-![image text](https://github.com/OrichalcosShunnoros/consoleChat/blob/master/assets/optionMode.png)
-![image text](https://github.com/OrichalcosShunnoros/consoleChat/blob/master/assets/userViewInit.png)
-![image text](https://github.com/OrichalcosShunnoros/consoleChat/blob/master/assets/chatClientView.png)
+![image](https://github.com/user-attachments/assets/5554488b-89cd-4313-8b14-1d62537c8f67)
+
 
 ---
 ¡Gracias por explirar esta aplicación de chat en consola! 💬 Si tienes alguna sugerencia o mejora, no dudes en contribuir al proyecto. 🚀
